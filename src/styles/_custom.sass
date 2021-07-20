@@ -1,0 +1,163 @@
+$grisMedio: #E8E8E8
+
+.bloque-texto-a.color-primario
+  background-color: $grisMedio
+
+.w5_5rem
+  max-width: 5.5rem
+
+.accesibilidad
+  z-index: 10
+
+.cst
+  color: $color-sistema-texto !important
+
+.cs
+  color: $color-secundario !important
+
+.bcs
+  background-color: $color-secundario !important
+
+.cp
+  color: $color-primario !important
+
+.cac
+  color: $color-acento-contenido !important
+
+.cab
+  color: $color-acento-botones !important
+
+@media screen and ( min-width: 992px )  
+  .contenedor
+    margin: -18rem -3rem
+    padding: 18rem 3rem
+    z-index: 0
+    &__bbg1
+      background: url('../assets/curso/bbg1.svg')
+      background-position: bottom right
+      background-size: auto
+      background-repeat: no-repeat
+    &__bbg2
+      background: url('../assets/curso/bbg2.svg')
+      background-position: center center
+      background-size: auto
+      background-repeat: no-repeat
+      overflow: visible
+    &__bbg3
+      background: url('../assets/curso/bbg3.svg')
+      background-position: bottom right
+      background-size: auto
+      background-repeat: no-repeat
+    &__bbg4
+      background: url('../assets/curso/bbg4.svg')
+      background-position: bottom right
+      background-size: auto
+      background-repeat: no-repeat
+    &__bbg5
+      background: url('../assets/curso/bbg5.svg')
+      background-position: center center
+      background-size: fill
+      background-repeat: no-repeat
+      padding: 3rem 3rem
+      margin: 0 -3rem
+  .col-lg-4_5
+    width: 38%
+  .traslape1
+    padding: 4.5rem
+.traslape1
+  display: inline-flexbox
+  clear: both
+  .col-z1
+    z-index: 1
+  .col-z2
+    z-index: 2
+  .f-left
+    float: left
+    img
+      margin-left: 11.3%
+  .f-right
+    float: right
+    .contenedor3c
+      margin-left: -11.3%
+.traslape2
+  clear: both
+  .col-z1
+    z-index: 1
+  .col-z2
+    z-index: 2
+  .f-left
+    float: left
+    .contenedor3c
+      left: -138.3%
+  .f-right
+    float: right
+    img
+      margin-left: 69%
+
+@media screen and ( max-width: 991px )  
+  .contenedor
+    &__bbg1
+    &__bbg2
+    &__bbg3
+    &__bbg4
+    &__bbg5
+      background: url('../assets/curso/bbg5.svg')
+      padding: 3rem -3rem
+      margin: 0 -3rem
+  .traslape1,.traslape2
+    padding: 1rem 3rem
+    .col-z1
+      z-index: 1
+    .col-z2
+      z-index: 2
+    .f-left,.f-right
+      .contenedor3c
+        margin-right: 0
+        margin-left: 0
+        left: 0
+        right: 0
+        top: -4rem
+      img
+        margin-right: 0
+        margin-left: 0
+        left: 0
+        top: 0
+  .col-lg-4_5
+    width: 100%
+
+.contenedor3c
+  background: white
+  border-radius: 1.5rem 1.5rem 1.5rem 0
+  position: relative
+  box-shadow: 0 0 15px rgba(0,0,0,.3)
+  margin-top: 1rem
+  &--color-primario
+    background-color: #CDEDFC
+
+.text-right
+  text-align: right !important
+
+.tarjeta.color-secundario, .tarjeta--purpuraMedio
+  background-color: #E4DDFA !important
+  
+.tarjeta  
+  &--color-primario
+    background-color: #CDEDFC
+
+.borad1
+  border-radius: 2rem 2rem 0 2rem
+  
+.borad2
+  border-radius: 2rem 2rem 2rem 0
+
+$lista1: rgba(126,94,227,0.1) 0%, rgba(129,212,250,0.1) 100%
+
+@mixin gradient($direction, $list)
+  background: -webkit-linear-gradient($direction, $list)
+  background: -moz-linear-gradient($direction, $list)
+  background: -o-linear-gradient($direction, $list)
+  background: linear-gradient($direction, $list)
+
+.g1
+  @include gradient(180deg, $lista1)
+  
