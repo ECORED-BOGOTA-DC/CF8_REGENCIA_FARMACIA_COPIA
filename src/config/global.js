@@ -144,12 +144,13 @@ export default {
       },
     ],
     subMenu: [
+      /*
       {
         nombreRuta: 'actividad',
         icono: 'far fa-question-circle',
         titulo: 'Actividad didáctica',
         desarrolloContenidos: true,
-      },
+      },*/
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -180,134 +181,110 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA: ',
+        'Acosta, Martínez y Rodríguez. (2012). Diagnóstico de la estructura y procesos de funcionamiento de los comités de farmacia y terapéutica de dos entidades de salud del régimen especial en Bogotá. Investigación científica p.22.',
+    },
+    {
+      referencia:
+        'Líder de emprendimiento. (22 de marzo del 2021). ¿Qué son los proveedores y cuales son sus tipos?',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://www.liderdelemprendimiento.com/logistica-y-distribucion/que-son-los-proveedores/',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA: ',
+        'MINISTERIO DE PROTECCIÓN SOCIAL. (2007). Por la cual se determina el modelo de gestión del servicio farmacéutico, se adopta el manual de condiciones esenciales y procedimientos de dicho servicio y se dictan otras disposiciones. Resolución número 1403.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://www.redjurista.com/Documents/resolucion_1403_de_2007_ministerio_de_la_proteccion_social.aspx#/',
     },
     {
       referencia:
-        'Harpersbazaar. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Osorio, E. (S.F). Procesos generales del servicio farmacéutico.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'http://www.cendi.edu.co/DOCS/materialDeApoyo/TecnicoLaboralAuxiliarServiciosFarmace%CC%81uticos/SELECCI%C3%93N%20DOC..pdf',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA. ',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+        'Sangri Coral, A. (2016). Administración de compras: adquisiciones y abastecimiento.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/39375',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
+        'Unab. (S.F). Adquisición de medicamentos y dispositivos médicos.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'http://unab.edupol.com.co/pluginfile.php/7206/mod_resource/content/1/UNIDAD_3 Adquisici%C3%B3n de medicamentos y dispositivos m%C3%A9dicos.pdf',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
+        'Valentín López, G. M. (2015). Aplicaciones informáticas de bases de datos relacionales: Access 2010.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/50762?page=17',
+    },
+    {
+      referencia: 'Vera, H. (2009). Buenas prácticas de abastecimiento.',
+      link:
+        'http://farmacus.com.co/wp-content/uploads/2016/07/Manual-Buenas-Practicas-Abast..pdf',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Adquisición',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'es el acto de obtener algún producto o servicio, mediante una transacción.',
     },
     {
-      termino: 'Suftware',
+      termino: 'Buenas Prácticas en la cadena de Abastecimiento (BPA)',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'conjunto de procedimientos y normas destinadas a garantizar el almacenamiento, transporte y distribución adecuada de materiales y productos farmacéuticos a partir de la liberación de que son objeto, después del proceso de fabricación, de manera que estos conserven la naturaleza y calidad deseadas cuando lleguen al consumidor final.',
     },
     {
-      termino: 'Pirognóstico',
-      significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+      termino: 'COFYTE',
+      significado: 'Comité de Farmacia y Terapéutica.',
     },
     {
-      termino: 'Áectores',
+      termino: 'Compra',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'es la acción mediante la cual un agente (el comprador), adquiere un bien o un servicio de otro agente (el vendedor), a cambio de una contraprestación monetaria o en especie.',
     },
     {
-      termino: 'Moda',
+      termino: 'Morbilidad',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'es la proporción de seres vivos que se enferman en un sitio y tiempo determinado. ',
     },
     {
-      termino: 'Diseño',
+      termino: 'Mortalidad',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'cantidad de personas que mueren en un lugar y en un período de tiempo determinados, en relación con el total de la población.',
     },
     {
-      termino: 'Tipología',
+      termino: 'Oferta y demanda',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'este principio refleja la relación que existe entre la demanda de un producto y la cantidad ofrecida de ese producto, teniendo en cuenta el precio al que se vende el producto.',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Perfil epidemiológico',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'es el estudio de la morbilidad, la mortalidad y los factores de riesgo, teniendo en cuenta las características geográficas, la población y el tiempo.',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Proveedor',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'es un profesional o empresa que abastece a otros profesionales o empresas, con existencias o servicios dirigidos directamente a la actividad.',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Dirección General de Planificación del Trabajo – Departamento de Desarrollo Organizacional. (2019). Guía para la elaboración de políticas institucionales.',
+      tipo: 'PDF',
+      link:
+        'https://www.mtss.go.cr/perfiles/lineamientos_circulares_directrices_politicas_internas/lineamientos-circulares-directrices-politicas internas/guia_politicas_institucionales_MTSS.pdf',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Vera, H. (2009). Manual de buenas prácticas en la cadena de abastecimiento de medicamentos.',
+      tipo: 'PDF',
+      link:
+        'http://farmacus.com.co/wp-content/uploads/2016/07/Manual-Buenas-Practicas-Abast..pdf',
     },
   ],
   creditos: {
@@ -325,6 +302,22 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Lina Marcela Ayala Pardo',
+        cargo: 'Experta temática',
+        centro: 'Centro de Servicios de Salud Regional Antioquia',
+      },
+      {
+        nombre: 'Oscar Meza',
+        cargo: 'Experto temático',
+        centro: 'Centro de Comercio y Servicios Regional Atlántico',
+      },
+      {
+        nombre: 'Ana Catalina Córdoba Sus',
+        cargo: 'Diseñadora Instruccional – Revisora Metodológica y Pedagógica',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica Regional Distrito Capital',
+      },
     ],
     desarrolloProducto: [
       {
@@ -339,25 +332,48 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'Blanca Flor Tinoco Torres',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
+        nombre: 'Walter Roa Serrano',
+        cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Zuleidy María Ruiz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Víctor Raúl Cárdenas Cáceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Camilo Villamizar Lizcano',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Jhana Johanna Bustillo Ardila',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

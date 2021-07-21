@@ -392,12 +392,7 @@
     .col-lg-10.mx-auto
       .cajon.color-secundario.p-4
         p.mb-0 <b>Importante:</b> los productos farmacéuticos son de consumo humano y de ellos depende la salud de miles de personas; por lo tanto, dentro de la ética de compras, se debe tener claro que no se le compra a cualquier persona que llegue ofreciendo productos que no estén avalados en su procedencia y calidad.
-
-
-
-  
 </template>
-
 <script>
 export default {
   name: 'Tema1',
