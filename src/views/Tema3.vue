@@ -45,24 +45,24 @@
       .row(titulo="Consumo promedio (CPM)")
         p Cantidad del medicamento o dispositivo médico que se consume en un periodo de días, semanas o meses, aunque por lo general se toman los datos de seis meses, arrojados de los consumos obtenidos, ya sea por consumo histórico o por perfil epidemiológico.
         .col-lg-4.mx-auto.mb-4
-          img(src='@/assets/curso/t3/f5.svg', alt='CPM = Promedio consumo por período en meses / cantidad de período en meses')
+          img(src='@/assets/curso/t3/f5.svg', alt='CPM = Promedio consumo por período en meses / cantidad de período en meses', style="width:350px;").m-auto
         p <b>Ejemplo práctico:</b> se tienen los consumos de 6 meses de acetaminofén 500 mg tabletas.
         .col-lg-7.mx-auto.mb-4
           img(src='@/assets/curso/t3/f6.svg', alt='Ejemplo práctico')
         p <b>Nota:</b> cuando un periodo aparece en cero, ya sea porque el producto se encontraba agotado o por cualquier otra circunstancia, este no se tiene en cuenta. Ejemplo: de un periodo de seis meses, el mes cuatro se reporta en cero; al aplicar la fórmula, la cantidad de períodos sería de cinco, que son los que tienen datos.
       .row(titulo="Tiempo de reposición (TR)")
         .col-lg-2
-          img(src='@/assets/curso/t3/f1.svg', alt='frasco de píldoras')
+          img(src='@/assets/curso/t3/f1.svg', alt='frasco de píldoras', style="width:250px;").m-auto
         .col-lg-10  
           p Representa el tiempo durante el cual se realizan todas las actividades propias de la compra, las cuales varían de acuerdo con la modalidad de compra y de los proveedores seleccionados. En algunos sistemas de salud, este periodo se duplica por los trámites administrativos. Este tiempo se toma desde la fecha en que se inicia la solicitud, hasta el momento en que se recibe el medicamento, en la respectiva dependencia (Unab, s.f.).
           p <b>Se debe establecer en fracción de tiempo expresado en meses.</b>
           p <b>Ejemplo práctico:</b> el TR es de 21 días
           p <b>Aplicando la fórmula:</b>
           .col-lg-2.mx-auto.mb-4
-            img(src='@/assets/curso/t3/f7.svg', alt='TR = (21/30) * 0,7meses')
+            img(src='@/assets/curso/t3/f7.svg', alt='TR = (21/30) * 0,7meses' , style="width:200px;").m-auto
       .row(titulo="Nivel mínimo de Existencias (NmE)")
         .col-lg-2
-          img(src='@/assets/curso/t3/f2.svg', alt='brister')
+          img(src='@/assets/curso/t3/f2.svg', alt='brister',style="width:250px;").m-auto
         .col-lg-10  
           p Este cálculo representa la cantidad mínima suficiente de producto que debe existir en el inventario, mientras llega un nuevo pedido, con el fin de evitar agotamientos que generen demanda insatisfecha.
           p.text-center <b>NmE = CPM X TR (expresado en meses)</b>
@@ -70,7 +70,7 @@
           p.text-center <b>NmE = 157 x 0,7 = 106</b>
       .row(titulo="Nivel Máximo de Existencias (NME)")
         .col-lg-2
-          img(src='@/assets/curso/t3/f3.svg', alt='frasco de píldoras')
+          img(src='@/assets/curso/t3/f3.svg', alt='frasco de píldoras', style="width:250px;").m-auto
         .col-lg-10
           p A diferencia del NmE, este cálculo representa la cantidad máxima de producto que debe haber en el inventario, con el fin de evitar que exceda el stock y comprometa los recursos financieros de la Institución.
           p.text-center <b>NME = CPM + (NmE x número de meses estimados para la compra)</b>
@@ -79,7 +79,7 @@
           p.text-center <b>NME = 152 + (N106 x 1) = 262</b>
       .row(titulo="Punto de Reposición (PR)")
         .col-lg-2
-          img(src='@/assets/curso/t3/f4.svg', alt='gotero y brister')
+          img(src='@/assets/curso/t3/f4.svg', alt='gotero y brister', style="width:250px;").m-auto
         .col-lg-10
           p Es la cantidad en existencia que realmente da inicio al proceso de compra. Es la relación entre la existencia de seguridad (NmE) y la demanda o consumo promedio mes (CPM), de un periodo en el cual pueda reponerse la existencia y alcanzar nuevamente un nivel de normalidad (Unab, s.f).
           p.text-center <b>Se puede expresar de dos formas:</b>
@@ -98,7 +98,7 @@
         p Es importante tener presente que, en ocasiones, no es posible adquirir todos los productos por falta de presupuesto, lo que implica establecer prioridades al comprar y así obtener los productos más necesarios.
       .col-lg-3.me-auto.p-0
         img(src='@/assets/curso/t3/i3.jpg', alt='carrito con medicamentos')
-    h3 clasificación VEN
+    h3 Clasificación VEN
     p.mb-5 Esta clasificación se basa en la urgencia con la que se necesite un medicamento, de tal manera que nunca falten los productos vitales para los pacientes.
     .col-lg-8.mx-auto.noborad(data-aos="fade-down-right")
       .tarjeta-avatar-b.mb-5

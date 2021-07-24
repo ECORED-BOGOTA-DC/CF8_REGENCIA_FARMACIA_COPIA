@@ -23,16 +23,16 @@
         span Procedimiento de selección de medicamentos y dispositivos médicos
       figure
         img(src="@/assets/curso/t1/f1.svg" alt="Mapa conceptual subprocesos").mb-4
-        figcaption Nota. Sena (2021). Adaptado de: <a href="http://www.cendi.edu.co/DOCS/materialDeApoyo/TecnicoLaboralAuxiliarServiciosFarmace%CC%81uticos/SELECCI%C3%93N%20DOC..pdf" target="_blank">cendi.edu.co</a>
+        figcaption Nota. Sena (2021). Adaptado de: <a href="http://www.cendi.edu.co/DOCS/materialDeApoyo/TecnicoLaboralAuxiliarServiciosFarmace%CC%81uticos/SELECCI%C3%93N%20DOC..pdf" target="_blank">http://www.cendi.edu.co/DOCS/materialDeApoyo/TecnicoLaboralAuxiliarServiciosFarmace%CC%81uticos/SELECCI%C3%93N%20DOC.pdf</a>
     .contenedor__bbg1.mb-4(data-aos="fade-left")
       .row.align-items-center
         .col-lg-7
           p Lo primero que se debe tener presente es definir quién o quiénes serán los encargados del proceso de selección, sin olvidar que dentro de una Institución Prestadora de Servicios (IPS) el responsable es el <span class="cs">Comité de Farmacia y Terapéutica (COFYTE)</span>.
-          .bloque-texto-d.color-primario.p-4.mb-4
+          .bloque-texto-d.c-color.p-4.mb-4
             .bloque-texto-d__texto.mb-2
               i.fas.fa-quote-left
               h5.text-regular Este comité es un grupo técnico-científico, propio de las instituciones prestadoras de servicios de salud, regido por aspectos legislativos y técnicos, que asesora a la dirección del hospital y estructura las políticas relativas al uso y manejo de medicamentos e insumos terapéuticos, necesarios para la atención en salud.
-              i.fas.fa-quote-right
+              i.fas.fa-quote-right.d-flex.justify-content-end
             .bloque-texto-d__autor 
               .h6.mb-0 (Acosta, Martínez y Rodríguez, 2012, p.22)
         .col-lg-5.mx-auto
@@ -50,7 +50,7 @@
         .bloque-texto-d__texto.mb-2
           i.fas.fa-quote-left
           h5.text-regular Aunque el COFYTE tiene varias funciones, una de las principales consiste en el proceso de selección de productos farmacéuticos, enfocado en las necesidades sanitarias de la institución, con un listado básico de medicamentos y dispositivos médicos, el cual es aceptado institucionalmente y basado en principios de utilidad terapéutica, seguridad y costo-efectividad.
-          i.fas.fa-quote-right
+          i.fas.fa-quote-right.d-flex.justify-content-end
         .bloque-texto-d__autor 
           .h6.mb-0 (Acosta et al., 2012).
     p La Resolución 1403 del 2007 describe las funciones del comité de una forma más precisa, de la siguiente manera:
@@ -190,7 +190,7 @@
       .mb-5
     .col-lg-9.mx-auto.mb-5
       .titulo-sexto.color-acento-botones
-        span Métodos de selección de medicamentos y dispositivos médicos
+        span Integrantes comité de compra
       .row.mb-4(data-aos="fade-right")
         .col-lg-4
           img(src="@/assets/curso/t1/f9.svg" alt="Director técnico del servicio farmacéutico")
@@ -215,11 +215,11 @@
             .bloque-texto-a__texto.p-4
               p El director técnico del servicio farmacéutico es el único integrante que, sin lugar a dudas, siempre debe tener participación; los demás integrantes del comité serán definidos por la institución, partiendo de su experticia en la materia, y siguiendo los lineamientos que establece el plan de mercadotecnia.
       .bloque-texto-b.color-primario.p-4.mb-4
-            .bloque-texto-b__texto.mb-2
-              i.fas.fa-quote-left
-              h5.text-regular El área de compras tiene una importancia significativa, porque si se violan las buenas costumbres y la ética en las compras, se pueden causar varios problemas a las empresas, entre los que se destacan:
-              i.fas.fa-quote-right
-              .h6.mb-0.text-right (Sangri Coral, A., 2016, p.26)
+        .bloque-texto-b__texto.mb-2
+          i.fas.fa-quote-left
+          h5.ms-5.text-regular El área de compras tiene una importancia significativa, porque si se violan las buenas costumbres y la ética en las compras, se pueden causar varios problemas a las empresas, entre los que se destacan:
+          i.fas.fa-quote-right.d-flex.justify-content-end
+          .h6.mb-0.text-right (Sangri Coral, A., 2016, p.26)
     .row.align-items-start.mb-4(data-aos="flip-right")
       .col-lg-4
         .tarjeta-avatar
@@ -239,8 +239,7 @@
           .tarjeta.color-secundario.p-4
             h4.text-center Aceptar invitaciones
             p Argumento utilizado por vendedores corruptos para invitaciones a comer, o de otra naturaleza, con la pretensión de ser el designado.
-    .row.align-items-start.mb-5
-      .col-lg-2
+    .row.justify-content-center.align-items-center.mb-5      
       .col-lg-4
         .tarjeta-avatar
           img(src='@/assets/curso/t1/f18.svg' alt='Sobornos')
@@ -271,8 +270,8 @@
         p.text-center Son utilizadas por instituciones bajo dominio del Estado. Por ejemplo, la Droguería Sena del Centro de Servicios de Salud de Medellín.
       .col-lg-3.p-4.tarjeta--color-primario.borad2(data-aos="flip-right")
         img(src='@/assets/curso/t1/f22.svg' alt='Icono dinero').w5_5rem.mx-auto.mb-4
-        h4.text-center Por licitaciones
-        p.text-center Son utilizadas por instituciones bajo dominio del Estado. Por ejemplo, la Droguería Sena del Centro de Servicios de Salud de Medellín.
+        h4.text-center Por compra directa
+        p.text-center Es la utilizada por la mayor parte de los comités de compras y se trata de una comunicación directa entre la persona encargada del comité y el proveedor.
     .tarjeta.g1.p-4.p-md-5.mb-5
       .row.justify-content-around.align-items-center
         .col-8.col-sm-6.col-md-4.mb-4.mb-md-0

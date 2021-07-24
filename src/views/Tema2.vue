@@ -11,6 +11,7 @@
         .cajon.color-primario.p-4.mb-4
           p.mb-0 Una cotización es un documento contable informativo, donde se detallan los precios de los productos, para llegar a la negociación y adquisición de ellos; este documento es utilizado por el área de compras de la institución. 
         p Su importancia se presenta a nivel administrativo, porque permite crear informes que posibilitan, posteriormente, comparar los productos cotizados con los facturados.
+        p Una contización debe contener como mínimo los siguientes parámetros:
       .col-lg-5
         img(src='@/assets/curso/t2/f1.svg', alt='Medicamentos y bolsa de compras')
     ImagenInfografica.color-acento-botones.mb-5(data-aos="fade-right")

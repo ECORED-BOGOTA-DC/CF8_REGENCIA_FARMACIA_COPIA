@@ -35,7 +35,7 @@
     Separador
     #t_9_2.titulo-segundo
       h2 9.2. Técnicas de estimación de precios
-    p.mb-5 
+    p.mb-5 Según Sangri Coral, A. (2016 pp. 18-19), “esta variable, en algunas ocasiones es la más importante; el precio, ya sea por unidad o por grandes volúmenes, debe ser #[strong “el precio exacto”] a fin que se efectúen las compras siguientes, y debe basarse en los siguientes términos:
     .row(data-aos="fade-left")
       .col-lg-8
         AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--cac")

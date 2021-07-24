@@ -8,49 +8,66 @@
       h1 Acuerdos comerciales y reglamentación
     p Los acuerdos o convenios surgen entre el comprador y el proveedor, donde se establecen, estipulan y/o pactan las especificaciones, condiciones, restricciones y/o concesiones, para la compraventa de los bienes que necesita o requiere la empresa.
     p.mb-5 A continuación, se mencionan las características de estos acuerdos:
-    .row.justify-content-between.mb-4
-      .col-lg-1
-      .col-lg-3.camhover
-        .p-5.fcpbt.vis
-          img(src='@/assets/curso/t8/f1.svg',alt="cantidad").w5_5rem.mx-auto.mb-4
-          h5.text-center Cantidad
-        .px-4.py-5.fcpbb.hid
-          p.text-center.mb-0 Se relaciona con el precio de la compra, y puede ser que, a poca compra en lo relativo a cantidades, el precio suba; y en una compra de mucha cantidad, el precio baja en un porcentaje admisible para la empresa.
-      .col-lg-3.camhover
-        .p-5.fcpbt.vis
-          img(src='@/assets/curso/t8/f2.svg',alt="precio").w5_5rem.mx-auto.mb-4
-          h5.text-center Precio
-        .px-4.py-5.fcpbb.hid
-          p.text-center.mb-0 Este se relaciona con una compra alta o baja en su volumen de compra, en la calidad y en la forma de pago. 
-      .col-lg-3.camhover
-        .p-5.fcpbt.vis
-          img(src='@/assets/curso/t8/f3.svg',alt="fecha de entrega").w5_5rem.mx-auto.mb-4
-          h5.text-center Fecha de entrega
-        .p-4.fcpbb.hid
-          p.text-center.mb-0 Si la compra es de urgencia, la fecha de entrega puede ser de inmediato; si la compra es programada, las fechas de entrega serán de acuerdo con un plan de recepción; todo esto bajo las condiciones de compra y de venta, las que se deben de respetar por parte del proveedor, so pena de no volver a surtir. 
-      .col-lg-1
-    .row.justify-content-between
-      .col-lg-1
-      .col-lg-3.camhover
-        .p-5.fcpbt.vis
-          img(src='@/assets/curso/t8/f3.svg',alt="fecha de pago").w5_5rem.mx-auto.mb-4
-          h5.text-center Fecha de pago
-        .px-4.py-5.fcpbb.hid
-          p.text-center.mb-0 Generalmente, esta se negocia si van a ser diferentes las condiciones de venta que nos da el proveedor, y puede ser a 45 días o a dos meses; debemos recordar que todas las facturas se pagan después de la presentación de la factura y, por lo general, se fecha a 30 días.
-      .col-lg-3.camhover
-        .p-5.fcpbt.vis
-          img(src='@/assets/curso/t8/f4.svg',alt="Garantia").w5_5rem.mx-auto.mb-4
-          h5.text-center Garantía
-        .px-4.py-5.fcpbb.hid
-          p.text-center.mb-0 El área de compras exige la garantía de calidad del proveedor, la que sin duda se cumple; pero hay ocasiones que se negocia una garantía mayor y, por lo general, también se cumple.
-      .col-lg-3.camhover
-        .p-5.fcpbt.vis
-          img(src='@/assets/curso/t8/f5.svg',alt="Lugar y hora de la recepción").w5_5rem.mx-auto.mb-4
-          h5.text-center Lugar y hora de la recepción
-        .px-4.py-5.fcpbb.hid
-          p.text-center.mb-0 De acuerdo con las políticas de la empresa compradora, esta es la que impone hora y día para recepción de lo comprado; solo en casos de extrema urgencia, esta condición no se respeta.
-      .col-lg-1
-    p.mb-5 
+
+    .row.justify-content-center.mb-5
+      .col-auto.mb-4
+        .tarjeta.tarjeta-container.tarjeta-cyan
+          .tarjetaContent
+            .tarjetaImg
+              figure.mb-3
+                img(src="@/assets/curso/t8/f1.svg", alt="acceso", style="width:120px;").m-auto
+              h5.text-center Cantidad
+            .tarjetaTxt
+              p.mb-0 Se relaciona con el precio de la compra, y puede ser que, a poca compra en lo relativo a cantidades, el precio suba; y en una compra de mucha cantidad, el precio baja en un porcentaje admisible para la empresa.
+      .col-auto.mb-4
+        .tarjeta.tarjeta-container.tarjeta-cyan
+          .tarjetaContent
+            .tarjetaImg
+              figure.mb-3
+                img(src="@/assets/curso/t8/f2.svg", alt="acceso", style="width:120px;").m-auto
+              h5.text-center Precio
+            .tarjetaTxt
+              p.mb-0 Este se relaciona con una compra alta o baja en su volumen de compra, en la calidad y en la forma de pago. 
+      .col-auto.mb-4
+        .tarjeta.tarjeta-container.tarjeta-cyan
+          .tarjetaContent
+            .tarjetaImg
+              figure.mb-3
+                img(src="@/assets/curso/t8/f3.svg", alt="acceso", style="width:120px;").m-auto
+              h5.text-center Fecha de entrega
+            .tarjetaTxt
+              p.mb-0 Si la compra es de urgencia, la fecha de entrega puede ser de inmediato; si la compra es programada, las fechas de entrega serán de acuerdo con un plan de recepción; todo esto bajo las condiciones de compra y de venta, las que se deben de respetar por parte del proveedor, so pena de no volver a surtir. 
+      .col-auto.mb-4
+        .tarjeta.tarjeta-container.tarjeta-cyan
+          .tarjetaContent
+            .tarjetaImg
+              figure.mb-3
+                img(src="@/assets/curso/t8/f3.svg", alt="acceso", style="width:120px;").m-auto
+              h5.text-center Fecha de pago
+            .tarjetaTxt
+              p.mb-0 Generalmente, esta se negocia si van a ser diferentes las condiciones de venta que nos da el proveedor, y puede ser a 45 días o a dos meses; debemos recordar que todas las facturas se pagan después de la presentación de la factura y, por lo general, se fecha a 30 días.
+      .col-auto.mb-4
+        .tarjeta.tarjeta-container.tarjeta-cyan
+          .tarjetaContent
+            .tarjetaImg
+              figure.mb-3
+                img(src="@/assets/curso/t8/f4.svg", alt="acceso", style="width:120px;").m-auto
+              h5.text-center Garantía
+            .tarjetaTxt
+              p.mb-0 El área de compras exige la garantía de calidad del proveedor, la que sin duda se cumple; pero hay ocasiones que se negocia una garantía mayor y, por lo general, también se cumple.
+      .col-auto.mb-4
+        .tarjeta.tarjeta-container.tarjeta-cyan
+          .tarjetaContent
+            .tarjetaImg
+              figure.mb-3
+                img(src="@/assets/curso/t8/f5.svg", alt="acceso", style="width:120px;").m-auto
+              h5.text-center Lugar y hora de la recepción
+            .tarjetaTxt
+              p.mb-0 De acuerdo con las políticas de la empresa compradora, esta es la que impone hora y día para recepción de lo comprado; solo en casos de extrema urgencia, esta condición no se respeta.
+
+    p.text-center.mb-5 #[strong Ahora conoceremos las concertaciones y alianzas con relación al precio.]
+    
+    
     PasosA.color-acento-botones.mb-5(tipo="n")
       .row
         .col-auto

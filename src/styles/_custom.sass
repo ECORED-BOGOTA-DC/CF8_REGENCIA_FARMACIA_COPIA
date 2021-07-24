@@ -230,3 +230,61 @@ $lista1: rgba(126,94,227,0.1) 0%, rgba(129,212,250,0.1) 100%
     .hid
       filter: opacity(1)
       z-index: 1
+
+.bloque-texto-d.color-primario:before , .bloque-texto-b.color-primario:before 
+    background-color: #dff4fd;
+
+.tarjeta.color-acento-contenido * 
+    color: #12263F
+
+
+
+// Tarjeta Hover ////////////////////
+.tarjeta-cyan
+  background-color: #CDEDFC
+  .tarjetaContent
+    .tarjetaImg
+      border-bottom: 7px solid #00BCD4
+    .tarjetaTxt
+      border-top: 7px solid #00BCD4
+
+.tarjeta-purpura
+  background-color: #E4DDFA
+  .tarjetaContent
+    .tarjetaImg
+      border-bottom: 7px solid #7E5EE3
+    .tarjetaTxt
+      border-top: 7px solid #7E5EE3
+
+
+$tarjeta-dimension: 300px
+
+.tarjeta-container
+  position: relative
+  overflow: hidden
+  width: $tarjeta-dimension
+  height: $tarjeta-dimension
+  border-radius: 0    
+  
+  .tarjetaContent
+    position: relative    
+    top: 0 
+    left: 0      
+    transition: all 0.45s 0s ease;
+    .tarjetaImg, .tarjetaTxt 
+      display: flex
+      flex-direction: column
+      justify-content: center
+      align-items: center          
+      width: $tarjeta-dimension
+      height: $tarjeta-dimension
+      padding: 2rem
+    .tarjetaImg     
+    .tarjetaTxt
+      text-align: center
+     
+
+  &:hover
+    .tarjetaContent
+      top: -($tarjeta-dimension)
+
