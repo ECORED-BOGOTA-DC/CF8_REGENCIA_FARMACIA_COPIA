@@ -96,6 +96,7 @@
         .mt-3
         p Existen diferentes metodologías para adquirir los productos farmacéuticos garantizando el cumplimiento de la cadena de suministros. 
         p Es importante tener presente que, en ocasiones, no es posible adquirir todos los productos por falta de presupuesto, lo que implica establecer prioridades al comprar y así obtener los productos más necesarios.
+        p.mb-0 Para definir propiedades se cuenta con dos métodos:
       .col-lg-3.me-auto.p-0
         img(src='@/assets/curso/t3/i3.jpg', alt='carrito con medicamentos')
     h3 Clasificación VEN

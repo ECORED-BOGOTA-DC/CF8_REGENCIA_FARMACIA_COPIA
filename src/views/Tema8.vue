@@ -65,7 +65,7 @@
             .tarjetaTxt
               p.mb-0 De acuerdo con las políticas de la empresa compradora, esta es la que impone hora y día para recepción de lo comprado; solo en casos de extrema urgencia, esta condición no se respeta.
 
-    p.text-center.mb-5 #[strong Ahora conoceremos las concertaciones y alianzas con relación al precio.]
+    p.mb-5 Ahora conoceremos las concertaciones y alianzas con relación al precio:
     
     
     PasosA.color-acento-botones.mb-5(tipo="n")

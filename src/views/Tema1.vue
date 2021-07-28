@@ -143,7 +143,7 @@
         span Método de selección por perfil epidemiológico
       figure
         img(src="@/assets/curso/t1/f7.svg" alt="Mapa conceptual método de selección por perfil epidemiológico").mb-4
-        //figcaption Nota. Sena (2021). Adaptado de: <a href="http://www.cendi.edu.co/DOCS/materialDeApoyo/TecnicoLaboralAuxiliarServiciosFarmace%CC%81uticos/SELECCI%C3%93N%20DOC..pdf" target="_blank">cendi.edu.co</a>
+        figcaption Nota. Sena (2021). Adaptado de: <a href="http://www.cendi.edu.co/DOCS/materialDeApoyo/TecnicoLaboralAuxiliarServiciosFarmace%CC%81uticos/SELECCI%C3%93N%20DOC..pdf" target="_blank">http://www.cendi.edu.co/DOCS/materialDeApoyo/TecnicoLaboralAuxiliarServiciosFarmace%CC%81uticos/SELECCI%C3%93N%20DOC..pdf</a>
     .mb-5
     .contenedor.contenedor__bbg2
       .row.align-items-center(data-aos="fade-right")
